@@ -72,3 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Imported Content need not to be directly messing with the git (will be selected and moved into the server as needed)
+Content/ImportedContent
