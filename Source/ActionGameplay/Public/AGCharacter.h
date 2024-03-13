@@ -37,8 +37,12 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	// Called via input binding component when the forward movement key is pressed
+	
+	// Called via input binding component when the forward movement key is pressed(W,S)
 	void MoveForward(float Value);
+	
+	// Called via input binding component when the side movement key is pressed(A,D)
+	void MoveRight(float Value);
 
 private:
 
